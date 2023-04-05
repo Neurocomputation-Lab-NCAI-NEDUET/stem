@@ -503,6 +503,14 @@ textarea:focus {
   padding-left: 100px;
 }
 
+.feature-img {
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  width: 30%;
+  float: left;
+}
+
 /* -- About Img -- */
 .about-img {
   margin-top: 35px;
