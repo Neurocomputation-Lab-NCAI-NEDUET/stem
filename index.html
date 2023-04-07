@@ -83,7 +83,7 @@
               <h1 class="white-text">STEAM EDUCATION
               </h1> 
               <h3 class="white-text">SCIENCE, TECHNOLOGY, ENGINEERING, ART, MATHEMATICS</h3>
-              <p class="lead white-text">Inspiring the STEM Stars of Tomorrow</p>
+              <p class="lead white-text">Inspiring the STEAM Stars of Tomorrow</p>
               <a class="main-button icon-button" href="#about">Learn More!</a>
             </div>
           </div>
@@ -93,21 +93,19 @@
     <!-- /Home -->
 
     <!-- About -->
-    <div id="about" class="section">
-      <!-- container -->
-      <div class="container">
-        <!-- row -->
-        <div class="row">
-          <div class="col-xs-10 col-sm-7">
-            <div class="section-header">
-              <h2>About Us</h2>
-              <h4>Our Mission</h4>
+  <div id="about" class="section">
+    <div class="container">
+      <div class="wrapper">
+        <div class="left-col">
+          <div class="section-header">
+            <h2>About Us</h2>
+            <h4>Our Mission</h4>
                 <p>At Innovation Station, our mission is to empower the next generation of thinkers,
                   makers, and creators through engaging and accessible STEAM education.</p>
                 <p>We believe that every child, regardless of background or experience, should have the
                   opportunity to learn and grow in the exciting world of technology and innovation.</p>
 
-              <p>We're passionate about making STEAM education accessible to underserved and
+                <p>We're passionate about making STEAM education accessible to underserved and
                   underrepresented groups, recognizing that these communities often face barriers to entry
                   in the tech industry.</p>
 
@@ -149,25 +147,23 @@
                   instructional content based on the curriculum, and communicating student progress with parents and
                   staff.</p>
 
-                  <p>If you're interested in learning more about Alena's background and experience, her full resume can
+                <p>If you're interested in learning more about Alena's background and experience, her full resume can
                     be found via her
                     <a href="https://www.linkedin.com/in/alenajd/" target="_blank" rel="noreferrer noopener">LinkedIn profile</a>.
                   </p>
+              <!-- button -->
               <a class="main-button icon-button" href="https://www.linkedin.com/in/alenajd/" target="_blank" rel="noreferrer noopener"
-                >Learn More</a
-              >
+                >Learn More</a>
+              <!-- /button -->
             </div>
-            <!-- /feature -->
           </div>
 
-          <div class="col-xs-10 col-sm-3">
+          <div class="right-col">
             <div class="about-img">
-              <img src="./img/sidebar-collage.png" alt="" />
+              <img src="./img/sidebar-collage.png" style="float: right;" alt="" />
             </div>
-<!--            <div class="about-img">-->
-<!--              <img src="./img/bio-pic.png" alt="" />-->
-<!--            </div>-->
           </div>
+
         </div>
         <!-- row -->
       </div>
@@ -183,7 +179,7 @@
         <div class="row">
           <div class="section-header text-center">
             <h2>Explore Our Courses</h2>
-            <p class="lead">We equip students with 21st century skills in the following technologies</p>
+            <p class="lead">In the following technologies, we provide students with the 21st-century skills they need to succeed.</p>
           </div>
         </div>
         <!-- /row -->
@@ -192,40 +188,41 @@
         <div id="courses-wrapper">
           <!-- row -->
           <div class="row">
-            <!-- single course -->
+
+            <!-- SCRATCH -->
             <div class="col-md-4 col-sm-6 col-xs-6">
               <div class="course">
                 <a href="basicunits.html" class="course-img">
-                  <img src="./img/bbc.png" alt="" />
+                  <img src="./img/scratch.png" alt="Sample of block code" />
                   <i class="course-link-icon fa fa-link"></i>
                 </a>
-                <a class="course-title" href="basicunits.html"
-                  >An entry level programming activity that allows children to
-                  understand the fundamentals of coding.</a
-                >
-                <div class="course-details">
-                  <span class="course-category">Basic Block Coding</span>
-                  <!--span class="course-price course-free"></span-->
+                 <div class="course-details">
+                  <span class="course-category">Block Coding in Scratch</span>
+                  <span class="course-price course-free"></span>
                 </div>
+                <a class="course-title" href="basicunits.html"
+                  >Scratch is an entry-level programming language that teaches the fundamentals of coding using predefined blocks of code.</a>
+
               </div>
             </div>
             <!-- /single course -->
 
-            <!-- single course -->
+            <!-- PYTHON 101 -->
             <div class="col-md-4 col-sm-6 col-xs-6">
               <div class="course">
-                <a href="appdev.html" class="course-img">
-                  <img src="./img/ap.png" alt="" />
+                <a href="python101.html" class="course-img">
+                  <img src="./img/python.png" alt="Screen with Python code" />
                   <i class="course-link-icon fa fa-link"></i>
                 </a>
-                <a class="course-title" href="appdev.html"
-                  >Application Development can promise you the best possible
-                  chance for any career goals you seek.</a
-                >
                 <div class="course-details">
-                  <span class="course-category">App Development</span>
-                  <!--span class="course-price course-premium"></span-->
+                  <span class="course-category">Python 101</span>
+                  <!-- <span class="course-price course-premium"></span> -->
                 </div>
+                <a class="course-title" href="python101.html">
+                  An introductory course that teaches the basics of Python programming, including variables, data
+                  types, functions, and basic input/output operations.
+                </a>
+
               </div>
             </div>
             <!-- /single course -->
@@ -237,53 +234,41 @@
                   <img src="./img/wd.png" alt="" />
                   <i class="course-link-icon fa fa-link"></i>
                 </a>
-                <a class="course-title" href="webdev.html" 
-                  >High in demand, easy to learn and fun to experience, web
-                  development helps you express your creativity on the internet.
-                </a>
                 <div class="course-details">
-                  <span class="course-category">Web Development</span>
-                  <!--span class="course-price course-premium"></span-->
+                  <span class="course-category">Intro to Web Development</span>
+                  <!-- <span class="course-price course-premium"></span> -->
                 </div>
+                <a class="course-title" href="webdev.html">
+                  The basics of building and designing websites using HTML, CSS, and JavaScript.
+                </a>
+
               </div>
             </div>
             <!-- /single course -->
 
-            <!--div class="col-md-3 col-sm-6 col-xs-6">
-              <div class="course">
-                <a href="#" class="course-img">
-                  <img src="./img/course04.jpg" alt="" />
-                  <i class="course-link-icon fa fa-link"></i>
-                </a>
-                <a class="course-title" href="#"
-                  >The Complete Web Development Course</a
-                >
-                <div class="course-details">
-                  <span class="course-category">Web Development</span>
-                  <span class="course-price course-free">Free</span>
-                </div>
-              </div>
-            </div-->
-            <!-- /single course -->
           </div>
           <!-- /row -->
 
-          <!-- row -->
+
+          <!-- Row -->
           <div class="row">
+
             <!-- single course -->
             <div class="col-md-4 col-sm-6 col-xs-6">
               <div class="course">
-                <a href="rob.html" class="course-img">
-                  <img src="./img/rob.jfif" alt="" />
+                <a href="digital-entr.html" class="course-img">
+                  <img src="./img/passion.png" alt="" />
                   <i class="course-link-icon fa fa-link"></i>
                 </a>
-                <a class="course-title" href="rob.html"
-                  >Robotics, involving programming and electronics, is hence an integral part of STEAM which acts as an
-                  embodiment of DIY and problem-based learning.</a>
                 <div class="course-details">
-                  <span class="course-category">Robotics</span>
-                  <!--span class="course-price course-free"></span-->
+                  <span class="course-category">Digital Entrepreneurship</span>
+                  <!-- <span class="course-price course-free"></span> -->
                 </div>
+                <a class="course-title" href="digital-entr.html">
+                  Digital Entrepreneurship teaches students how to turn creative ideas into successful online businesses.
+                  how to identify business opportunities, create and market digital products or services,
+                  and manage their finances in the digital age.</a>
+
               </div>
             </div>
             <!-- /single course -->
@@ -291,19 +276,21 @@
             <!-- single course -->
             <div class="col-md-4 col-sm-6 col-xs-6">
               <div class="course">
-                <a href="AI.html" class="course-img">
-                  <img src="./img/ai.jfif" alt="" />
+                <a href="pygame.html" class="course-img">
+                  <img src="./img/pygame.png" alt="" />
                   <i class="course-link-icon fa fa-link"></i>
                 </a>
-                <a class="course-title" href="AI.html"
-                  >Artificial intelligence forms the basis for all computer learning and is the future of all complex decision making.
-                </a>
                 <div class="course-details">
-                  <span class="course-category"
-                    >Artificial Intelligence & Machine Learning</span
-                  >
-                  <!--span class="course-price course-free">Free</span-->
+                  <span class="course-category">
+                    <!-- "Game Crafters: Intro to.." -->
+                    Intro to Game Design with Pygame</span>
+                  <!-- <span class="course-price course-free">Free</span> -->
                 </div>
+                <a class="course-title" href="pygame.html">
+                  The fundamentals of game design, programming, and development using the Pygame
+                  framework. This course requires prior knowledge of Python programming language or completion of
+                  'Python 101' before enrolling.
+                </a>
               </div>
             </div>
             <!-- /single course -->
@@ -315,42 +302,31 @@
                   <img src="./img/iot.jfif" alt="" />
                   <i class="course-link-icon fa fa-link"></i>
                 </a>
-                <a class="course-title" href="Iot.html"
-                  >IoT in schools means a better-connected and more collaborative future for education.</a
-                >
                 <div class="course-details">
                   <span class="course-category">Internet of Things</span>
-                  <!--span class="course-price course-free">Free</span-->
+                  <!-- <span class="course-price course-free">Free</span> -->
                 </div>
+                <a class="course-title" href="Iot.html">
+                  Teaches students how to build and program their own smart devices, using sensors, microcontrollers, and
+                  wireless communication technologies, to connect to the internet and interact with the physical world.
+                  This is an intermediate-level subject and prior knowledge of basic Python is required.
+                </a>
+
               </div>
             </div>
-            <!-- /single course -->
 
-            <!-- single course -->
-            <!--div class="col-md-3 col-sm-6 col-xs-6">
-              <div class="course">
-                <a href="#" class="course-img">
-                  <img src="./img/course08.jpg" alt="" />
-                  <i class="course-link-icon fa fa-link"></i>
-                </a>
-                <a class="course-title" href="#">Typography From A to Z</a>
-                <div class="course-details">
-                  <span class="course-category">Typography</span>
-                  <span class="course-price course-free">Free</span>
-                </div>
-              </div>
-            </div-->
-            <!-- /single course -->
           </div>
           <!-- /row -->
         </div>
         <!-- /courses -->
 
+      <!-- MORE COURSES
         <div class="row">
-          <!--div class="center-btn">
+          <div class="center-btn">
             <a class="main-button icon-button" href="#">More Courses</a>
-          </div-->
-        </div>
+          </div>
+        </div> -->
+
       </div>
       <!-- container -->
     </div>
@@ -358,12 +334,12 @@
 
     <!-- Call To Action -->
     <div id="cta" class="section">
-      <!-- Backgound Image -->
+      <!-- Background Image -->
       <div
         class="bg-image bg-parallax overlay"
         style="background-image: url(./img/cta2-background.jpg)"
       ></div>
-      <!-- /Backgound Image -->
+      <!-- /Background Image -->
 
       <!-- container -->
       <div class="container" id="resource">
@@ -536,15 +512,20 @@
   
       <!-- row -->
       <div id="bottom-footer" class="row">
+
       <!-- social -->
       <div class="col-md-4 col-md-push-8">
         <ul class="footer-social">
+
+      <!--FACEBOOK COMPANY PAGE
         <li>
           <a href="https://www.facebook.com/nc.ncai" class="facebook"
           ><i class="fa fa-facebook"></i
           ></a>
         </li>
-  
+        -->
+
+          <!-- OUTUBE CHANNEL
         <li>
           <a
           href="https://www.youtube.com/channel/UCOyh_A31fD4-hc9xijwS7oA"
@@ -553,11 +534,13 @@
           ></a>
         </li>
         <li>
+        -->
+
           <a
-          href="https://www.linkedin.com/company/ned-nclab"
-          class="linkedin"
-          ><i class="fa fa-linkedin"></i
-          ></a>
+          href="https://www.linkedin.com/in/alenajd"
+          class="linkedin">
+            <i class="fa fa-linkedin"></i>
+          </a>
         </li>
         </ul>
       </div>
@@ -566,10 +549,11 @@
            <!-- copyright -->
       <div class="col-md-8 col-md-pull-4">
         <div class="footer-copyright">
-          <span
-          >&copy;  All Rights Reserved, Neurocomputation Lab  <!--i class="fa fa-heart-o" aria-hidden="true"></i> by
-          <a href="https://colorlib.com">Colorlib</a></span
+          <span>&copy; All Rights Reserved, INNOVATION STATION</span>
+          <!--
+          <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com">Colorlib</a>
           -->
+
         </div>
         </div>
         <!-- /copyright -->
