@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$to = "nclab@neduet.edu.pk";
+$to = "alenad@gmail.com";
 
 $subject = "Mail From website";
 $txt = "Name = " . $name . "\r\n  Email = " . $email . "\r\n Subject=" . $subject . "\r\n  Message =" . $message;
