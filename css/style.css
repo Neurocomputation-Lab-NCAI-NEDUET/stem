@@ -25,6 +25,7 @@ Table OF Contents
 11 > Single Post Page
 12 > Responsive
 13 > Preloader
+14 > Grid/columns
 ------------------------------------*/
 
 /*------------------------------------*\
@@ -256,6 +257,7 @@ textarea:focus {
 
 .navbar-brand .logo > img {
   max-height: 38px;
+  width: 110%;
 }
 
 @media only screen and (max-width: 767px) {
@@ -281,7 +283,7 @@ textarea:focus {
 
 #header.transparent-nav {
   position: absolute;
-  background-color: gray;
+  background-color: #000000;
 }
 
 #header.transparent-nav .main-menu li a {
@@ -502,6 +504,14 @@ textarea:focus {
   padding-left: 100px;
 }
 
+.feature-img {
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  width: 30%;
+  float: left;
+}
+
 /* -- About Img -- */
 .about-img {
   margin-top: 35px;
@@ -509,6 +519,7 @@ textarea:focus {
 
 .about-img > img {
   width: 100%;
+  float: center;
 }
 
 /* -- About Video -- */
@@ -584,6 +595,9 @@ textarea:focus {
 /*------------------------------------*\
 	Courses
 \*------------------------------------*/
+/*------------------------------------*\
+	Courses
+\*------------------------------------*/
 .course {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -592,7 +606,7 @@ textarea:focus {
 .course .course-img {
   position: relative;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -648,13 +662,15 @@ textarea:focus {
 
 .course .course-title {
   display: block;
-  height: 42px;
+  height: 62px;
+  margin-top: 10px;
 }
 
 .course .course-details {
-  margin-top: 20px;
-  padding-top: 10px;
-  border-top: 1px solid #ebebeb;
+  margin-top: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid #ebebeb;
+  color: blue;
 }
 
 .course .course-details .course-price {
@@ -1381,3 +1397,30 @@ textarea:focus {
     transform: rotate(360deg);
   }
 }
+
+
+/*------------------------------------*\
+	GRID EXTRAS
+\*------------------------------------*/
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.left-col {
+  flex: 0 0 70%;
+  margin-right: 10px;
+}
+
+.right-col {
+  flex: 0 0 27%;
+}
+
+.about-img img {
+  max-width: 100%;
+  height: auto;
+  float: right;
+}
+
